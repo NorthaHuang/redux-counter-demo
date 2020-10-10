@@ -16,18 +16,10 @@ const CounterButtons = ({ increment, decrement, add5, subtract5 }) => {
 };
 
 const mapDispatchToProps = dispatch => ({
-  increment: () => {
-    dispatch(increment());
-  },
-  decrement: () => {
-    dispatch(decrement());
-  },
-  add5: () => {
-    dispatch(add5());
-  },
-  subtract5: () => {
-    dispatch(subtract5());
-  },
+  increment: () => dispatch(increment()),
+  decrement: () => dispatch(decrement()),
+  add5: () => dispatch(add5()),
+  subtract5: () => dispatch(subtract5()),
 });
 
 export default connect(null, mapDispatchToProps)(CounterButtons);
