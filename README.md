@@ -1,3 +1,10 @@
+# Redux Counter Demo
+
+> [Live Demo Link](https://stoic-dijkstra-dd7439.netlify.app/)
+
+讀完了 Dan 的 Redux 基本教學，第一次實用簡易 Demo!!
+(小北開始使用 Redux 里程碑建立! XD)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
